@@ -1,0 +1,18 @@
+{
+	"name": "uI2C",
+	"keywords": "usi, i2c, signal, input, output, communication",
+	"description": "Tiny I2C library for ATTinyX5 devices, adapted from TinyI2C Library",
+	"authors": {
+		"name": "Nomad NT",
+		"email": "info@nomadnt.com",
+		"url": "https://github.com/nomadnt-iot/uI2C"
+	},
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/nomadnt-iot/uI2C.git"
+	},	
+	"version": "1.0",
+	"frameworks": "arduino",
+	"platforms": ["atmelavr"]
+}

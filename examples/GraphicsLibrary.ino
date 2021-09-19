@@ -1,14 +1,14 @@
-/* Tiny Graphics Library using TinyI2C library - see http://www.technoblogy.com/show?23OS
-
-   David Johnson-Davies - www.technoblogy.com - 6th June 2018
-   ATtiny85 @ 8 MHz (internal oscillator; BOD disabled)
-   
-   CC BY 4.0
-   Licensed under a Creative Commons Attribution 4.0 International license: 
-   http://creativecommons.org/licenses/by/4.0/
+/**
+ * uI2C
+ * Filippo Sallemi - https://github.com/nomadnt-iot/uI2C - 19th September 2021s
+ * David Johnson-Davies - www.technoblogy.com - 14th April 2018
+ * 
+ * CC BY 4.0
+ * Licensed under a Creative Commons Attribution 4.0 International license: 
+ * http://creativecommons.org/licenses/by/4.0/
 */
 
-#include <TinyI2CMaster.h>
+#include <uI2C.h>
 
 // OLED display - note only works with displays based on the SH1106 driver
 
